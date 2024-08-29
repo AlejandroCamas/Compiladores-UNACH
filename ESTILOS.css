@@ -1,9 +1,11 @@
+/*INTEGRANTES:*/
+/*Alan Ruiz Álvarez*/
 /*ALEJANDRO MORENO CAMAS 5TO L*/
 /*Mariajose Martinez Vazquez*/
 /*AQUI COLOCAMOS EL ESTILO EL CUAL VA A TENER NUESTRO BODY DE NUESTRA PAGINA WEB*/
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #d3d3d3; /* Fondo gris */
     margin: 0;
     padding: 0;
     display: flex;
@@ -19,9 +21,9 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 600px;
     width: 100%;
+    text-align: center; /* Centrar el contenido */
 }
 
-/*COLOCAMOS LOS ESTILOS PARA NUESTRA ETIQUETA H1 QUE USAMOS PARA LOS TITULOS O FUENTES DE TEXTO QUE QUEREMOS SEAN MAS GRANDES*/
 h1 {
     text-align: center;
     color: #333;
@@ -63,4 +65,5 @@ button:hover {
     min-height: 100px;
     font-family: monospace;
     white-space: pre-wrap;
+    text-align: left; /* Alinear el texto a la izquierda */
 }
